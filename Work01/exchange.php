@@ -27,9 +27,9 @@ jpy=3.58757333 -->
 				$sum3=$moneyjpy*$jpy;
 
 			?>
-				<div class="label-con"><label class="la-money">EU:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo "$sum1"?></label></div><br>
-				<div class="label-con"><label class="la-money">KRW:&nbsp;<?php echo "$sum2"?></label></div><br>
-				<div class="label-con"><label class="la-money">JPY:&nbsp;&nbsp;&nbsp;<?php echo "$sum3"?></label></div><br>
+				<div class="label-con"><label class="la-money">EU:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo "$sum1"?>&nbsp;&nbsp;EU</label></div><br>
+				<div class="label-con"><label class="la-money">KRW:&nbsp;<?php echo "$sum2"?>&nbsp;&nbsp;KRW</label></div><br>
+				<div class="label-con"><label class="la-money">JPY:&nbsp;&nbsp;&nbsp;<?php echo "$sum3"?>&nbsp;&nbsp;JPY</label></div><br>
 				<a href="index.php"><input class="submit-money ex-botton" type="submit" name="submit" value="กลับไปหน้าแรก"></a>
 		</div><!-- container -->
 	</div><!-- wrapper -->
